@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Ajio Style Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #282828;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            gap: 450px;
+            
+            
+        }
+        header h1{
+           text-align: center;
+           display: flex;
+           font-style: bold;
+
+        }
+        header input{
+            margin-left: 20px;
+            gap: 30px;
+            border-radius: 20px;
+            border: none;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .product-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: white;
+            width: 250px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 16px;
+            color: #888;
+            margin: 5px 0;
+        }
+
+        .product .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff6347;
+        }
+
+        
+        
+        article {
+            height: 100vh;
+            width: 100%;
+            border: none;
+        }
+        article img{
+            height: 100vh;
+            width: 100%;
+        }
+        footer h1{
+            color: white;
+            font-style: bold;
+            margin: 20px;
+        }
+        button{
+            height: 30px;
+            width: 80px;
+            color: black;
+            background-color: rgb(199, 82, 82);
+            border-radius: 20px;
+            border: none;
+            font-style: bold;
+        }
+
+     
+
+        
+        
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        
+        
+        <input type="text" placeholder="Search Product">
+        <h1>AJIO</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> 
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Sale</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="product-section">
+        <div class="product">
+            <img src="https://uspoloassn.in/cdn/shop/files/3_f9fdc9db-6195-4a7e-805e-c5ac71ddf528.jpg" alt="Product Image">
+            <h3>Stylish Shirt</h3>
+            <p>Color: Blue</p>
+            <p>Size: M, L, XL</p>
+            <p class="price">RS.7800</p>
+            <button>BUY NOW</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNHymvM7MeKewOo1sK1hqZ3njskwDEayCPiQ&s" alt="Product Image">
+            <h3>Casual Pants</h3>
+            <p>Color: Black</p>
+            <p>Size: 30, 32, 34</p>
+            <p class="price">RS.4800</p>
+            <button>BUY NOW</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.pinimg.com/originals/53/23/00/532300171977fffb426baf2e1579d19f.jpg" alt="Product Image">
+            <h3>Summer Dress</h3>
+            <p>Color: Red</p>
+            <p>Size: S, M, L</p>
+            <p class="price">RS.3000</p>
+            <button>BUY NOW</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0D35P7avxE-jfmFgFJYZDg8WwEQO4BJuXQ&s" alt="Product Image">
+            <h3>Leather Shoes</h3>
+            <p>Color: Brown</p>
+            <p>Size: 8, 9, 10</p>
+            <p class="price">Rs.1700</p>
+            <button>BUY NOW</button>
+        </div>
+    </div>
+
+   
+    <article >
+        
+        
+        <img src="https://d53bpfpeyyyn7.cloudfront.net/Pictures/2000xAny/4/9/2/1227492_HandM_2.jpg" alt="">
+        <img src="https://approval.studio/wp-content/uploads/2020/07/branding-story-of-adidas.jpg" alt="">
+        <img src="https://wallpapers.com/images/hd/zara-fashion-poster-female-model-hq5h9hw7aydob3of.jpg" alt="">
+        
+        
+
+    </article>
+    <footer>
+        <h1>50% off</h1>
+    </footer>
+    
+    
+    
+
+</body>
+
+</html>
